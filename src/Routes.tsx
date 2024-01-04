@@ -22,7 +22,7 @@ const Routes = () => {
         <Route path="" element={<Auth />}>
           <Route path="/" element={<Login />} />
         </Route>
-        {/* <Route path="/" element={<ProtectedRoutes />}></Route> */}
+        <Route path="/dashboard" element={<ProtectedRoutes />}></Route>
       </ReactRoutes>
     </BrowserRouter>
   );
