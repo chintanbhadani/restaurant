@@ -20,9 +20,9 @@ const Routes = () => {
     <BrowserRouter>
       <ReactRoutes>
         <Route path="" element={<Auth />}>
-          <Route path="login" element={<Login />} />
+          <Route path="/" element={<Login />} />
         </Route>
-        <Route path="/" element={<ProtectedRoutes />}></Route>
+        {/* <Route path="/" element={<ProtectedRoutes />}></Route> */}
       </ReactRoutes>
     </BrowserRouter>
   );
