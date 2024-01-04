@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <>
       <div className="grid grid-cols-1 min-h-screen md:grid-cols-2">
-        <div className=" bg-[url('static/images/banner.jpg')] bg-no-repeat bg-cover">
+        <div className=" bg-[url('./static/images/banner.jpg')] bg-no-repeat bg-cover">
           <h1 className="font-bold text-3xl p-5 text-white h-[50vh]">Logo</h1>
         </div>
         <div className="p-5">
